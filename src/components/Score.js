@@ -4,9 +4,9 @@ function Score(props) {
   console.log(props);
   const {date, score} = props;
   return (
-    <h3>
-    Date: {date} Score: {score}
-    </h3>
+    <h4>
+      Score: {score} / Date: {date} 
+    </h4>
   )
 }
 

@@ -9,9 +9,9 @@ function Student (props) {
 
   return (
     <div>
-      <h1>Name: {name}</h1>
-      <h2>Bio: {bio}</h2>
-      <h2>Scores: </h2>
+      <h2>{name}</h2>
+      <p>{bio}</p>
+      <h3>Scores</h3>
 
       {scores.map((score) => (
         <Score date={score.date} score={score.score} />
